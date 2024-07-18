@@ -37,36 +37,12 @@ function App(): React.JSX.Element {
               Click the buttons to see how different easing affect of the
               appearance of the entry animation
             </Text>
-            {/* <TouchableOpacity
-              activeOpacity={0.7}
-              style={styles.button}
-              onPress={() => setMode('emphasizedSlow')}>
-              <Text style={styles.buttonText}>Emphasized slow</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              activeOpacity={0.7}
-              style={styles.button}
-              onPress={() => setMode('normalSlow')}>
-              <Text style={styles.buttonText}>Normal slow</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              activeOpacity={0.7}
-              style={styles.button}
-              onPress={() => setMode('linearSlow')}>
-              <Text style={styles.buttonText}>Linear slow</Text>
-            </TouchableOpacity> */}
             <TouchableOpacity
               activeOpacity={0.7}
               style={styles.button}
               onPress={() => setMode('emphasized')}>
               <Text style={styles.buttonText}>Emphasized</Text>
             </TouchableOpacity>
-            {/* <TouchableOpacity
-              activeOpacity={0.7}
-              style={styles.button}
-              onPress={() => setMode('normal')}>
-              <Text style={styles.buttonText}>Normal</Text>
-            </TouchableOpacity> */}
             <TouchableOpacity
               activeOpacity={0.7}
               style={styles.button}
